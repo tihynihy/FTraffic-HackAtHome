@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html, body{
+    width: 100%;
+   
+    background-color: #4f7d89;
+
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+ 
+
+
+    background-color: #121a2c;
+
+    color: #f3f2f5;
+
+    height: 70px;
+
+
+}
+
+.header h1 { 
+    margin-left: 20px;
+
+}
+
+.header nav ul { 
+    margin-right: 20px;
+    float: right;
+
+
+}
+
+.header nav ul li:hover { 
+    color: #88b2ca;
+    cursor: pointer;
+}
+
+.header nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+
+  
+
+}
+
+.content{
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+.notif{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    overflow: scroll;
+    margin-left: 20px;
+    width: 300px;
+
+}
+
+.notif button{
+    width: 200px;
+    height: 50px;
+    border: 0;
+    background-color: #88b2ca;
+    color: #121a2c;
+    font-size: 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 2px 5px #121a2c;
+
+}
+
+.col1 h1{
+    text-align: center;
+    width: auto;
+}
+
+.info {
+
+
+    width: 20%;
+
+  
+
+    display: flex;
+    flex-direction: column;
+right: 20px;
+
+    
+}
+
+#imgId{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    border-radius: 75px;
+
+    
+}
+
+.image{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.infotext p{
+    margin-bottom: 15px;
+    font-size: 20px;
+    position: relative;
+
+    
+
+   
+}
+
+.infotext {
+    background-color: #121a2c;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 8px;
+    color: #88b2ca;
+    box-shadow: 5px 2px 5px #121a2c;
+
+    
+
+}
+
+#navbar {
+
+    position:absolute;
+
+    right: 20px;
+
+  
+
+  
+
+}
+
+.btn:hover{ 
+
+    background-color: orange;
+
+
+}
+
+
+ #logo { 
+     height: 40px;
+     width: 60px;
+     margin-left: 20px;
+ }
+
+
+
+.btn2 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #0f80c6;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0 auto;
+    box-shadow: 5px 2px 5px #121a2c;
+  }
+  
+  .btn2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn2:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+  .callHead { 
+      background-color: #121a2c;
+      width: 100%;
+      text-align: center;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      margin-top: 10px;
+      color: white;
+      box-shadow: 5px 2px 5px #121a2c;
+      
+  }
+
+
+.foot { 
+    display: block;
+
+    text-align: center;
+    background: #121a2c;
+
+    width: 200px;
+
+    border-radius: 10px;
+    bottom: 0;
+
+    position: absolute;
+    bottom: 0;
+
+    margin-bottom: 20px;
+    left: 50%;
+transform: translateX(-100px);
+
+
+
+
+    
+   
+}
+
+.foot p { 
+
+    color: #fff;
+
+    margin: 20px;
+    
+}
+
+#mapDiv { 
+    height: 93vh;
+    width: 100%;
+    position: relative;
+    
+
+
+}
+
+.maps { 
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+
+.notif, .info {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.notif { 
+    left: 20px;
+}
+
+.info { 
+    right: 20px;
+}
